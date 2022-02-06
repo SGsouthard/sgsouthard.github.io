@@ -1,3 +1,9 @@
+img {
+    max-width: 300px;
+    max-height: auto;
+    border-radius: 50%;
+}
+
 .skill-block {
     background-color: aqua;
     display: flex;
@@ -21,4 +27,16 @@
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+}
+
+.projects-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.single-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
