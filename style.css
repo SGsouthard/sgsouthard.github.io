@@ -1,0 +1,24 @@
+.skill-block {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.frontend {
+    background-color: blueviolet;
+}
+
+.backend {
+    background-color: yellow;
+}
+
+.workflow {
+    background-color: aquamarine;
+}
+
+.frontend, .backend, .workflow {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
