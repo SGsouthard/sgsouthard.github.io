@@ -51,14 +51,6 @@ a:hover {
     color: var(--color5);
 }
 
-/* footer {
-    display: flex;
-    flex-direction: row;
-    background-color: aquamarine;
-    width: 100%;
-    margin-left: 700px;
-} */
-
 .list-no-bullets {
     list-style-type: none;
     margin: 0;
