@@ -51,6 +51,14 @@ a:hover {
     color: var(--color5);
 }
 
+/* footer {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    width: 100%;
+    margin-left: 700px;
+} */
+
 .list-no-bullets {
     list-style-type: none;
     margin: 0;
@@ -138,6 +146,13 @@ a:hover {
     width: 100%;
 }
 
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 450px;
+    justify-content: space-evenly;
+}
+
 @media (max-width: 800px) {
     html {
         display: flex;
@@ -199,5 +214,9 @@ a:hover {
 
     #brand-statement {
         max-width: 400px;
+    }
+
+    .footer-links {
+        margin-left: 0;
     }
 }
