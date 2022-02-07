@@ -218,5 +218,6 @@ a:hover {
 
     .footer-links {
         margin-left: 0;
+        justify-content: center;
     }
 }
