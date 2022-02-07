@@ -221,3 +221,16 @@ a:hover {
         justify-content: center;
     }
 }
+
+@media (max-width: 400px) {
+    .side-bar {
+        position: static;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .main-body {
+        position: static;
+        margin-top: auto;
+    }
+}
