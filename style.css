@@ -4,10 +4,32 @@ img {
     border-radius: 50%;
 }
 
+li {
+    margin: 5px;
+}
+
+.list-no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .side-bar {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: maroon;
+}
+
+.main-body {
+    margin-left: 350px;
 }
 
 .skill-block {
@@ -15,6 +37,23 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.links-collection {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.single-link {
+    background-color: yellow;
+    text-align: center;
+    border-radius: 15px;
+    margin: 2.5px;
+    padding: 5px;
+    width: 75px;
+    /* max-width: fit-content; */
+    height: fit-content;
+    line-height: 0px;
 }
 
 .frontend {
@@ -37,12 +76,18 @@ img {
 
 .projects-block {
     display: flex;
+    margin: 10px;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .single-project {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#swap-job {
+    background-color: greenyellow;
 }
