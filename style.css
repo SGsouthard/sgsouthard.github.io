@@ -10,6 +10,14 @@ html {
     background-color: var(--color1);
     color: var(--color5);
     overflow-x: hidden;
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+span {
+    font-family: 'Josefin Sans', Helvetica, sans-serif;
+    font-weight: 400;
+    margin-left: 5px;
 }
 
 img {
@@ -31,14 +39,16 @@ li {
 a {
     color: var(--color5);
     transition: 0.25s;
-}
-
-a:hover {
-    color: var(--color4);
+    margin: 5px;
+    text-decoration: none;
 }
 
 a:visited {
     color: var(--color4);
+}
+
+a:hover {
+    color: var(--color5);
 }
 
 .list-no-bullets {
@@ -128,7 +138,7 @@ a:visited {
     width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     html {
         display: flex;
         flex-direction: column;
