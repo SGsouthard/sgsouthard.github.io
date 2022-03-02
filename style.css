@@ -92,6 +92,13 @@ a:hover {
     align-items: center;
 }
 
+.links-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
 .single-link {
     background-color: var(--color1);
     text-align: center;
@@ -105,6 +112,24 @@ a:hover {
 }
 
 .single-link:hover {
+    background-color: var(--color3);
+    color: var(--color1)
+}
+
+.single-link-tab {
+    background-color: var(--color5);
+    color: var(--color1);
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    /* max-width: fit-content; */
+    height: fit-content;
+    line-height: 0px;
+}
+
+.single-link-tab:hover {
     background-color: var(--color3);
     color: var(--color1)
 }
