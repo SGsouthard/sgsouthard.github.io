@@ -285,12 +285,17 @@ a:hover {
         flex-direction: column;
     }
 
-    .h3-skill {
+    .frontend, .backend, .workflow {
+        border-bottom: #331E38;
+        border-style: none none double none;
+    }
+
+    /* .h3-skill {
         background-color: var(--color5);
         color: var(--color1);
         padding: 8px;
         border-radius: 7px;
-    }
+    } */
 }
 
 @media (max-width: 480px) {
