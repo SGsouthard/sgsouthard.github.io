@@ -20,7 +20,7 @@ span {
     margin-left: 5px;
 }
 
-img {
+.preview-img {
     max-width: 300px;
     max-height: auto;
     border-radius: 50%;
@@ -64,6 +64,20 @@ a:hover {
     height: 100%;
     width: 370px;
     position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-color-block {
+    background-image: linear-gradient(var(--color5),var(--color4));
+    width: 100px;
+    position: fixed;
+    height: 100%;
     z-index: 1;
     top: 0;
     left: 0;
@@ -155,12 +169,16 @@ a:hover {
     align-items: center;
 }
 
+.title-bg {
+    background-color: var(--color5);
+    width: 5000px;
+}
+
 .title {
-    text-align: center;
+    /* text-align: center; */
     color: var(--color1);
     padding: 30px;
-    background-color: var(--color5);
-    width: 100%;
+    /* background-color: var(--color5); */
 }
 
 .footer-links {
@@ -168,6 +186,11 @@ a:hover {
     flex-direction: row;
     margin-left: 450px;
     justify-content: space-evenly;
+}
+
+.side-body {
+    margin-left: 100px;
+    padding: 0px 10px;
 }
 
 @media (max-width: 800px) {
@@ -237,6 +260,24 @@ a:hover {
         margin-left: 0;
         justify-content: center;
     }
+
+    .side-color-block {
+        width: 10px;
+    }
+
+    .side-body {
+        margin-left: 40px;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    .side-links {
+        display: flex;
+        flex-direction: column;
+        background-color: blue;
+    }
 }
 
 @media (max-width: 480px) {
@@ -250,4 +291,5 @@ a:hover {
         position: static;
         margin-top: auto;
     }
+
 }
