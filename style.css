@@ -285,7 +285,7 @@ a:hover {
         flex-direction: column;
     }
 
-    .frontend, .backend, .workflow {
+    .frontend, .backend {
         border-bottom: #331E38;
         border-style: none none double none;
     }
