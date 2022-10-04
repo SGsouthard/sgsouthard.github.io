@@ -22,7 +22,7 @@ span {
 
 .preview-img {
     max-width: 300px;
-    max-height: auto;
+    max-height: 300px;
     border-radius: 50%;
     opacity: 0.5;
     transition: 0.25s;
